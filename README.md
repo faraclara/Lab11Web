@@ -252,14 +252,75 @@ Ubah method about pada class Controller Page menjadi seperti berikut:
 
 ![](img/20%20addview.jpg)
 
-![](img/%20.jpg)
-![](img/%20.jpg)
-![](img/%20.jpg)
-![](img/%20.jpg)
-![](img/%20.jpg)
-![](img/%20.jpg)
-![](img/%20.jpg)
-![](img/%20.jpg)
-![](img/%20.jpg)
-![](img/%20.jpg)
-![](img/%20.jpg)
+Kemudian lakukan refresh pada halaman tersebut.
+
+![](img/21%20addviewcr.jpg)
+
+##### Membuat Layout Web dengan CSS
+
+Pada dasarnya layout web dengan css dapat diimplamentasikan dengan mudah pada 
+codeigniter. Yang perlu diketahui adalah, pada Codeigniter 4 file yang menyimpan asset 
+css dan javascript terletak pada direktori public. 
+Buat file css pada direktori public dengan nama style.css (copy file dari praktikum 
+lab4_layout. Kita akan gunakan layout yang pernah dibuat pada praktikum 4.
+
+
+![](img/22%20addcss.jpg)
+
+Kemudian buat folder template pada direktori view kemudian buat file header.php dan 
+footer.php
+File app/view/template/header.php
+
+![](img/23%20view.jpg)
+
+File app/view/template/footer.php
+
+![](img/24%20footer.jpg)
+
+Kemudian ubah file app/view/about.php seperti berikut.
+
+![](img/25%20about.jpg)
+
+Selanjutnya refresh tampilan pada alamat http://localhost:8080/about
+
+
+![](img/26akhir%20vsc.jpg)
+
+![](img/26akhir%20vsc1.jpg)
+
+## Pertanyaan dan Tugas
+Lengkapi kode program untuk menu lainnya yang ada pada Controller Page, sehingga 
+semua link pada navigasi header dapat menampilkan tampilan dengan layout yang 
+sama.
+
+#### Pengaturan Controller
+
+![](img/27akhir%20controller.jpg)
+
+#### Pengaturan view
+
+![](img/28akhir%20view.jpg)
+
+#### Pengaturan Link antar page/header.php
+
+
+![](img/29akhir%20vsc.jpg)
+
+#### terhubung antara navbar dan pagenya
+
+![](img/30akhir%20chrome.jpg)
+
+Laporan Praktikum
+
+1. Buatlah repository baru dengan nama Lab11Web.
+
+2. Kerjakan semua latihan yang diberikan sesuai urutannya.
+
+3. Screenshot setiap perubahannya.
+
+4. Buatlah file README.md dan tuliskan penjelasan dari setiap langkah praktikum 
+beserta screenshotnya.
+
+5. Commit hasilnya pada repository masing-masing.
+
+6. Kirim URL repository pada e-learning ecampus
